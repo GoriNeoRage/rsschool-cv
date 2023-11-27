@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(241, 242, 243);
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    max-width: 1200px;
+    padding: 20px;
+}
+
+.contacts,
+.summary,
+.education,
+.experience,
+.skills,
+.code,
+.lang {
+    padding-bottom: 30px;
+}
+
+h1 {
+    color: rgb(1, 66, 60);
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 34px;
+}
+
+h2 {
+    color: rgb(2, 101, 118);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(2, 106, 151);
+}
+
+a:hover {
+    color: rgb(3, 153, 216);
+}
+
+hr.solid {
+    border-top: 1px solid #bbb;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+img {
+    height: 40px;
+    width: 80px;
+}
