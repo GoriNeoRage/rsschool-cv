@@ -6,10 +6,15 @@
     --color-border: #C1B6AD;
 }
 
+* {
+    box-sizing: border-box;
+}
 
 body {
     font-family: Inter;
     color: var(--color-text-dark);
+    background: var(--color-light-both);
+    margin: 0;
 }
 
 ul {
@@ -34,6 +39,29 @@ h3 {
     font-size: 24px;
 }
 
+h1,
+h2,
+h3,
+p {
+    margin-top: 0;
+}
+
+.section {
+    padding: 40px 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1408px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+.hero-title {
+    margin-bottom: 0;
+    text-align: left;
+    font-weight: 600;
+}
 
 .btn {
     background-color: var(--color-light-both);
