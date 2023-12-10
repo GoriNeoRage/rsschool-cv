@@ -1,0 +1,53 @@
+:root {
+    --color-light-both: #E1D4C9;
+    --color-text-dark: #403F3D;
+    --color-text-accent: #B0907A;
+    --color-bg-dark: #665F55;
+    --color-border: #C1B6AD;
+}
+
+
+body {
+    font-family: Inter;
+    color: var(--color-text-dark);
+}
+
+ul {
+    list-style-type: none;
+}
+
+.hero-title .accent {
+    color: var(--color-text-accent);
+
+}
+
+h1 {
+    font-size: 72px;
+}
+
+h2 {
+    font-size: 60px;
+
+}
+
+h3 {
+    font-size: 24px;
+}
+
+
+.btn {
+    background-color: var(--color-light-both);
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+
+    .btn_img {
+        display: none;
+    }
+}
+
+.btn:hover {
+    .btn_img {
+        display: flex;
+    }
+}
