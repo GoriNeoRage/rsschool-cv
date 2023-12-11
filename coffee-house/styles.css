@@ -289,6 +289,29 @@ p {
     background-repeat: no-repeat;
 }
 
+
+/*second pade*/
+.menu_row {
+    display: flex;
+    gap: 20px;
+    padding-bottom: 50px;
+}
+
+
+article {
+    border: 1px solid var(--color-bg-dark);
+    border-radius: 20px;
+}
+
+article img {
+    width: 290px;
+    border-radius: 20px;
+}
+
+.art_content {
+    padding: 15px;
+}
+
 .footer_items {
     display: flex;
     justify-content: space-between;
