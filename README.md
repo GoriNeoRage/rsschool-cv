@@ -1,2 +1,2 @@
 # rsschool-cv
-tasks for rrschool
+https://GoriNeoRage.github.io/rsschool-cv/
