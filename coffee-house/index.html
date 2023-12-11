@@ -12,49 +12,68 @@
 <body>
     <header>
         <div class="container">
-            <nav>
-                <a href="./index.html">
-                    <img src="./img/logo.svg" alt="logo">
+            <div class="header-container">
+                <nav class="header-nav">
+                    <a href="./index.html">
+                        <img src="./img/logo.svg" alt="logo">
+                    </a>
+                    <ul class="header-menu">
+                        <li> <a href="#fav_coffee">Favorite coffee</a></li>
+                        <li> <a href="#about">About</a></li>
+                        <li> <a href="#mob_app">Mobile app</a></li>
+                        <li> <a href="#contacts">Contact us</a></li>
+                    </ul>
+                </nav>
+                <a href="#" class="link_item">
+                    Menu <img src="./img/coffee-cup.svg" alt="logo" class="link_img">
                 </a>
-                <ul>
-                    <li> <a href="#fav_coffee">Favorite coffee</a></li>
-                    <li> <a href="#about">About</a></li>
-                    <li> <a href="#mob_app">Mobile app</a></li>
-                    <li> <a href="#contacts">Contact us</a></li>
-                </ul>
-            </nav>
-            <a href="./index.html">
-                Menu <img src="./img/coffee-cup.svg" alt="logo">
-            </a>
+            </div>
         </div>
     </header>
 
     <main>
         <section id="enjoy" class="section">
             <div class="container">
-                <h1 class="hero-title"><span class="accent">Enjoy</span> premium coffee at our charming cafe</h1>
-                <p>With its inviting atmosphere and delicious coffee options, the Coffee House Resource is a popular
-                    destination for coffee lovers and those seeking a warm and inviting space to enjoy their favorite
-                    beverage.</p>
-                <button type="submit" class="btn">Menu <img src="./img/coffee-cup.svg" alt="logo"
-                        class="btn_img"></button>
+                <div class="enjoy_container">
+                    <div class="enjoy_content">
+                        <h1 class="hero-title"><span class="accent">Enjoy</span> premium coffee at our charming cafe
+                        </h1>
+                        <p class="paragraph">With its inviting atmosphere and delicious coffee options, the Coffee House
+                            Resource
+                            is a popular
+                            destination for coffee lovers and those seeking a warm and inviting space to enjoy their
+                            favorite
+                            beverage.</p>
+                        <button type="submit" class="btn">Menu</button>
+                    </div>
+                </div>
             </div>
         </section>
 
         <section id="fav_coffee" class="section">
             <div class="container">
-                <h2 class="hero-title">Choose your <span class="accent">favorite</span> coffee</h2>
-                <ul>
-                    <li>
-                        <article>
-                            <img src="./img/coffee-slider-1.jpg" alt="frappuccino">
+                <div class="coffee_item">
+                    <h2 class="hero-title">Choose your <span class="accent">favorite</span> coffee</h2>
+                </div>
+                <div class="coffee_content">
+                    <button class="arrow-left"></button>
+                    <div class="slider_content">
+                        <div class="slider_item">
+                            <img src="./img/coffee-slider-1.svg" alt="frappuccino">
                             <h3>S’mores Frappuccino</h3>
-                            <p>This new drink takes an espresso and mixes it with brown sugar and cinnamon before being
+                            <p class="p_dark">This new drink takes an espresso and mixes it with brown sugar and
+                                cinnamon
+                                before
+                                being
                                 topped with oat milk.</p>
                             <h3>&dollar; 5.50</h3>
-                        </article>
-                    </li>
-                    <li>
+                            <div class="pag">
+                                <div class="pag_item active"></div>
+                                <div class="pag_item"></div>
+                                <div class="pag_item"></div>
+                            </div>
+                        </div>
+                        <!--<li>
                         <article>
                             <img src="./img/coffee-slider-2.jpg" alt="frappuccino">
                             <h3>Caramel Macchiato</h3>
@@ -72,8 +91,10 @@
                             </p>
                             <h3>&dollar; 4.50</h3>
                         </article>
-                    </li>
-                </ul>
+                    </li>-->
+                    </div>
+                    <button class="arrow-right"></button>
+                </div>
             </div>
 
         </section>
@@ -85,17 +106,35 @@
                     beverages,
                     relax, catch up
                     with friends, or get some work done.</h2>
-                <img src=" ./img/about-1.jpg" alt="about1">
-                <img src="./img/about-2.jpg" alt="about2">
-                <img src="./img/about-3.jpg" alt="about3">
-                <img src="./img/about-4.jpg" alt="about4">
+                <div class="gallery">
+                    <div class="left_col">
+                        <img src=" ./img/about-1.jpg" alt="about1" class="gallery_item_big">
+                        <img src="./img/about-2.jpg" alt="about2" class="gallery_item_small">
+                    </div>
+                    <div class="right_col">
+                        <img src="./img/about-3.jpg" alt="about3" class="gallery_item_small">
+                        <img src="./img/about-4.jpg" alt="about4" class="gallery_item_big">
+                    </div>
+                </div>
             </div>
         </section>
 
         <section id="mob_app" class="section">
             <div class="container">
-                <h2 class="hero-title"><span class="accent">Download</span> our apps to start ordering</h2>
-                <img src="./img/mobile-screens.jpg" alt="mobile app">
+                <div class="mob_container">
+                    <div class="mob_container_content">
+                        <h2 class="hero-title"><span class="accent">Download</span> our apps to start</h2>
+                        <p class="p_dark">Download the Resource app today and experience the comfort of ordering your
+                            favorite coffee
+                            from
+                            wherever you are</p>
+                        <div class="app_links">
+                            <button class="app_google"></button>
+                            <button class="app_apple"></button>
+                        </div>
+                    </div>
+                    <img src="./img/mobile-screens.svg" alt="mobile app">
+                </div>
             </div>
 
         </section>
@@ -103,18 +142,25 @@
 
     <footer id="contacts">
         <div class="container">
-            <h2 class="hero-title">Sip, Savor, Smile. <span class="accent">It’s coffee time!</span></h2>
+            <div class="footer_items">
+                <h2 class="hero-title">Sip, Savor, Smile. <br><span class="accent">It’s coffee time!</span></h2>
+                <div class="footer_content">
+                    <h3>Contact us</h3>
+                    <nav>
+                        <ul>
+                            <li> <a href="https://maps.app.goo.gl/SksZutwWZTJwTT75A" target="_blank"></a>8558 Green Rd.,
+                                LA
+                            </li>
+                            <li> <a href="tel:+1603550123"></a>+1 (603) 555-0123</li>
+                            <li> <a href=""></a>Mon-Sat: 9:00 AM – 23:00 PM</li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                        </ul>
+                    </nav>
+                </div>
 
-            <h3>Contact us</h3>
-            <nav>
-                <ul>
-                    <li> <a href="https://maps.app.goo.gl/SksZutwWZTJwTT75A" target="_blank"></a>8558 Green Rd., LA</li>
-                    <li> <a href="tel:+1603550123"></a>+1 (603) 555-0123</li>
-                    <li> <a href=""></a>Mon-Sat: 9:00 AM – 23:00 PM</li>
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
-                </ul>
-            </nav>
+            </div>
+
         </div>
 
     </footer>
